@@ -2,7 +2,7 @@
 """A script that counts the number of occurrences of list of words
 in a given subreddit."""
 
-
+from audioop import reverse
 import requests
 
 headers = {'User-Agent': 'MyAPI/0.0.1'}
